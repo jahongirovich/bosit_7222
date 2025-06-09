@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.header {
+    max-width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    background-color: #202C36;
+}
+
+.world {
+    width: 1440px;
+    height: 80px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: #2B3844;
+    display: flex;
+    gap: 941px;
+    align-items: center;
+    padding-left: 81px;
+}
+
+.world h1 {
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.world h3 {
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.input {
+    width: 480px;
+    height: 56px;  
+    margin: 48px 0 48px 80px; 
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding-left: 74px;
+    background-color: #2B3844;
+    color: white;
+}
+
+.flagi {
+    width: 1280px;
+    height: 336px;
+    /* border: 2px solid red; */
+    margin-left: 80px;
+    display: flex;
+    gap: 75px;
+    margin-bottom: 75px;
+}
+
+.flag {
+    width: 264px;
+    height: 230px;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    background-color: #2B3844;
+}
+
+.flag img {
+    margin-left: -9px;
+    margin-top: -8px;
+    width: 280px;
+    height: 160px;
+}
+
+.flag h2 {
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin: 20px 94px 32px 93px;
+}
+
+.flag1 {
+    width: 264px;
+    height: 230px;
+    border-radius: 5px;
+    background-color: #2B3844;
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px)  {
+    .header {
+        height: 1500px;
+        max-width: 1440px;
+    }
+    .flagi {
+        width: 834px;
+        display: flex;
+        gap: 240px;
+        flex-wrap: wrap;
+    }
+    .flag { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
